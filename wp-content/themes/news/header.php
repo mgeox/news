@@ -1,15 +1,28 @@
-<!-- <!doctype html>
+<html>
+<head>
+<title><?php echo $title; ?> </title>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel='stylesheet' href='scss/layout/_header.scss'>
 
+</head>
 
-<header class="header">
-	<div class="container">
-		<a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/logo.svg" ?>" /></a>
+<body>
+
+<header class='header'>
+	<div class='container'>
+		
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Find a doctor</a></li>
-			<li><a href="#">Apps</a></li>
-			<li><a href="#">Testimonials</a></li>
-			<li><a href="#">About us</a></li>
+		<li class='first'>Corona Updates</li>
+		<li>Politics</li>
+		<li>Business</li>
+		<li>Sports</li>
+		<li>World</li>
+		<li>Travel</li>
+		<li>Podcasts</li>
+		<li><i class="fas fa-angle-double-right" aria-hidden="false"></i></li>
+		<li><i class="fa fa-user-alt" aria-hidden="false"></i></li>
+		<li><i class="fas fa-search" aria-hidden="false"></i></li>
+		<li><i class="fas fa-bars"></i></li>
 		</ul>
-	</div>
+		</div>
 </header>
